@@ -25,7 +25,7 @@ python main_supcon.py --batch_size 1024 \
 Linear evaluation stage:
 ```
 python main_linear.py --batch_size 512 \
-  --learning_rate 5 \
+  --data_folder /path/to/dataset \
   --ckpt /path/to/model.pth
 ```
 
