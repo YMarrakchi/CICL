@@ -16,11 +16,12 @@ The code supports the classification for automated diagnosis of pigmented skin l
  
 Pretraining stage:
 ```
-python main_supcon.py --batch_size 1024 \
-  --learning_rate 0.5 \
-  --temp 0.1 \
+python main_supcon.py --batch_size 192 \
+  --data_folder /path/to/dataset \
+  --balance \
   --cosine
 ```
+Removing the flag `--balance` would lead to learning from the original unbalanced data.
 
 Linear evaluation stage:
 ```
