@@ -10,7 +10,9 @@ Yassine Marrakchi, Osama Makansi, Thomas Brox.
 
 
 The algorithm is based on supervised contrastive loss. It is able to efficiently learn good features for imbalanced image classification.
-The code supports the classification for automated diagnosis of pigmented skin lesions using the HAM10000 dataset. 
+The code supports the classification for automated diagnosis of pigmented skin lesions using the HAM10000 dataset.
+The used dataset can be downloaded from:
+https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000
 
 ## Running
  
